@@ -4,3 +4,6 @@ showErrorDetails = false
 [theme]
 primaryColor = "black"
 backgroundColor = "gray"
+
+[server]
+baseUrlPath = "khp"
