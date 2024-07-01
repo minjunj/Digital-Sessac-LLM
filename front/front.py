@@ -3,8 +3,7 @@ import streamlit as st
 import requests
 
 # Set Backend LLM API Server IP
-api_url = 'http://127.0.0.1:8000'
-
+api_url = 'http://172.17.0.2:8000' # set your backend docker container ip
 st.title('''Welcome to Chat CPT's World!''')
 
 # Use Instead of DB.
